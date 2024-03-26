@@ -1,0 +1,152 @@
+Script started on 2022-11-09 10:45:57-0600
+]0;phtran@turing: ~[01;32mphtran@turing[00m:[01;34m~[00m$ exit./hw5.exeg++ -Wall hw5.cpp -o hw5.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm -rf tran-homework5.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm -rf tran-homework5.txt[11Phw5.execppls[Kogoutscript tran-homework5.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clogout[Ks[Krm -rf hw5.cppexetran-homework5.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kg++ -Wall hw5.cpp -o hw5.exe
+[01m[Khw5.cpp:[m[K In function ‘[01m[Kvoid changeTipAmount(int (*)[7])[m[K’:
+[01m[Khw5.cpp:129:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdone[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     bool [01;35m[Kdone[m[K = true;
+          [01;35m[K^~~~[m[K
+[01m[Khw5.cpp:[m[K In function ‘[01m[Kstd::__cxx11::string dayOfTheWeek(int)[m[K’:
+[01m[Khw5.cpp:95:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+]0;phtran@turing: ~[01;32mphtran@turing[00m:[01;34m~[00m$ g++ -Wall hw5.cpp -o hw5.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./hw5.exeg++ -Wall hw5.cpp -o hw5.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./hw5.exe[K
+Please select one of the follow: 
+Enter '0' to exit the program.
+Enter '1' to fill each day of the week with a random value between a min and max. 
+Enter '2' to manually change the tip amount on a particular day.
+Enter '3' to print a particular week.
+Enter '4' to print each week and display the tips made everyday along with:
+          - The sum of every week.
+          - Which week made the most tips.
+          - The average number of tips earned for each day of the week.
+          - What day of the week on average have the highest tip amount.
+
+Please enter a number between 0 to 4: 
+2
+What day and week would you like to change the tip?
+Which day of the week would you like to select. 
+'M' for Monday. 
+'T' for Tuesday. 
+'W' for Wednesday. 
+'R' for Thursday. 
+'F' for Friday. 
+'S' for Saturday. 
+'U' for Sunday. 
+Please enter a single character: m
+You selected Monday 
+Which week in the fiscal quarters would you like to select?
+Please enter 1 for week 1, 2 for week 2 and so on...
+Please enter a number between 1 and 12:1
+You selected week 1
+What is the new tip amount you would like to change it to? 
+Please enter a positive integer: 10000
+Cool beans, I changed week 1 on Monday tip amount to 10000 dollars.
+
+Please enter a number between 0 to 4: 
+1 4
+        Week      M      T      W      R      F      S      U       Sum
+------------------------------------------------------------------------
+           1  10000      0      0      0      0      0      0     10000
+           2      0      0      0      0      0      0      0         0
+           3      0      0      0      0      0      0      0         0
+           4      0      0      0      0      0      0      0         0
+           5      0      0      0      0      0      0      0         0
+           6      0      0      0      0      0      0      0         0
+           7      0      0      0      0      0      0      0         0
+           8      0      0      0      0      0      0      0         0
+           9      0      0      0      0      0      0      0         0
+          10      0      0      0      0      0      0      0         0
+          11      0      0      0      0      0      0      0         0
+          12      0      0      0      0      0      0      0         0
+------------------------------------------------------------------------
+Day Average:    833      0      0      0      0      0      0
+Highest week: 1
+Highest average day of the week is: Monday
+
+Please enter a number between 0 to 4: 
+1
+Please enter your minimum tip value as a positive integer more than zero
+021
+Please enter your maximum tip value as a positive integer greater than your minimum tip value
+-20
+Please enter your maximum tip value as a positive integer greater than your minimum tip value
+200
+Your minimum tip value is : 21
+Your maximum tip value is : 200
+please enter 'y' to confirm and 'n' to re-enter your tips amount: y
+
+Please enter a number between 0 to 4: 
+4
+        Week      M      T      W      R      F      S      U       Sum
+------------------------------------------------------------------------
+           1    184    127    138    136    134    136     67       922
+           2     33     90     22    143     88     71    100       547
+           3     44    187     81    147     73    157     92       781
+           4     29    108     90     83    191     83    124       708
+           5    148     76    170    183    183    159    170      1089
+           6    168     94     37     52    163     90    174       778
+           7    102    140    125    178    179    185    176      1085
+           8     51    194     67    112    101    137    174       836
+           9    143     71     97    142    126     66    125       770
+          10    108     77    146    127    150     34    158       800
+          11    165    156    183     66     95    108     95       868
+          12    125    144     71     28    189    117    119       793
+------------------------------------------------------------------------
+Day Average:    108    122    102    116    139    111    131
+Highest week: 5
+Highest average day of the week is: Friday
+
+Please enter a number between 0 to 4: 
+2
+What day and week would you like to change the tip?
+Which day of the week would you like to select. 
+'M' for Monday. 
+'T' for Tuesday. 
+'W' for Wednesday. 
+'R' for Thursday. 
+'F' for Friday. 
+'S' for Saturday. 
+'U' for Sunday. 
+Please enter a single character: m
+You selected Monday 
+Which week in the fiscal quarters would you like to select?
+Please enter 1 for week 1, 2 for week 2 and so on...
+Please enter a number between 1 and 12:1
+You selected week 1
+What is the new tip amount you would like to change it to? 
+Please enter a positive integer: 1000 2-1
+Cool beans, I changed week 1 on Monday tip amount to 1002 dollars.
+
+Please enter a number between 0 to 4: 
+invalid input :( 
+Please enter a number between 0 to 4: 
+-100    4
+        Week      M      T      W      R      F      S      U       Sum
+------------------------------------------------------------------------
+           1   1002    127    138    136    134    136     67      1740
+           2     33     90     22    143     88     71    100       547
+           3     44    187     81    147     73    157     92       781
+           4     29    108     90     83    191     83    124       708
+           5    148     76    170    183    183    159    170      1089
+           6    168     94     37     52    163     90    174       778
+           7    102    140    125    178    179    185    176      1085
+           8     51    194     67    112    101    137    174       836
+           9    143     71     97    142    126     66    125       770
+          10    108     77    146    127    150     34    158       800
+          11    165    156    183     66     95    108     95       868
+          12    125    144     71     28    189    117    119       793
+------------------------------------------------------------------------
+Day Average:    176    122    102    116    139    111    131
+Highest week: 1
+Highest average day of the week is: Monday
+
+Please enter a number between 0 to 4: 
+20  20  20
+invalid input :( 
+Please enter a number between 0 to 4: 
+10  3
+Which week in the current fiscal quarters would you like to print?
+Please enter 1 for week 1, 2 for week 2 and so on...
+Please enter a number between 1 and 12: 2
+ Week      M      T      W      R      F      S      U
+-------------------------------------------------------
+    2     33     90     22    143     88     71

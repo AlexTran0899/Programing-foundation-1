@@ -1,0 +1,81 @@
+Script started on 2022-10-26 14:53:35-0500
+]0;phtran@turing: ~[01;32mphtran@turing[00m:[01;34m~[00m$ ./hw4b.exe
+How many people are in your party? >> 20
+
+
+Welcome to the Olive Garden!  It appears there are 20 dining with us today.
+how many people are ordering the Chicken parmesean?
+12
+how many people are ordering the Cheese ravioli?
+990
+It looked like you ordered more dishes than the amount of people sitting at your table, please try again
+
+how many people are ordering the Chicken parmesean?
+12
+how many people are ordering the Cheese ravioli?
+2
+It look like 6 people didnt order food.
+We have added an additional $5 charge for each of the 6 people who didnt order food.
+
+There are more than 8 people at your dining table, a mandatory 20% tip has been applied to your bill. 
+your current tip amount is: $45.86
+How much more tip would you like to add to your current bill? 
+20
+You wish to add $20.00 dollars to the tip? 
+Please type "yes" or "no". 
+no
+How much more tip would you like to add to your current bill? 
+-20
+Please enter a positive amount of tip. 
+How much more tip would you like to add to your current bill? 
+20  12.00000001
+You wish to add $12.00 dollars to the tip? 
+Please type "yes" or "no". 
+yes
+|Menu                |Cost           |Quantity ordered    |Selection Cost |
+---------------------------------------------------------------------------
+|Chicken parmesean   |$14.95         |12                  |$179.40        |
+|Cheese ravioli      |$9.95          |2                   |$19.90         |
+|Breadsticks only    |$5.00          |6                   |$30.00         |
+
+Amount of tips:     $57.86
+Total:              $287.16
+
+Would you like to order more food?
+Please type 'y' for yes and 'n' for no
+y y
+How many people are in your party? >> 20 1  90000
+
+
+Welcome to the Olive Garden!  It appears there are 90000 dining with us today.
+how many people are ordering the Chicken parmesean?
+1200
+how many people are ordering the Cheese ravioli?
+022
+It look like 88778 people didnt order food.
+We have added an additional $5 charge for each of the 88778 people who didnt order food.
+
+There are more than 8 people at your dining table, a mandatory 20% tip has been applied to your bill. 
+your current tip amount is: $92409.78
+How much more tip would you like to add to your current bill? 
+90
+You wish to add $90.00 dollars to the tip? 
+Please type "yes" or "no". 
+yes
+|Menu                |Cost           |Quantity ordered    |Selection Cost |
+---------------------------------------------------------------------------
+|Chicken parmesean   |$14.95         |1200                |$17940.00      |
+|Cheese ravioli      |$9.95          |22                  |$218.90        |
+|Breadsticks only    |$5.00          |88778               |$443890.00     |
+
+Amount of tips:     $92499.78
+Total:              $554548.69
+
+Would you like to order more food?
+Please type 'y' for yes and 'n' for no
+n
+We hope you enjoyed your meal, and remember, when you're here, you're family!
+]0;phtran@turing: ~[01;32mphtran@turing[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-10-26 14:55:09-0500

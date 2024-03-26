@@ -1,0 +1,127 @@
+From phtran@turing.uark.edu Thu Oct  6 13:14:46 2022
+To: <phtran@uark.edu>
+X-Mailer: mail (GNU Mailutils 3.4)
+
+Script started on 2022-10-06 08:10:26-0500
+]0;phtran@turing: ~[01;32mphtran@turing[00m:[01;34m~[00m$ script lastname-homework4a.txt[C[C[C[C[C[1P-homework4a.txt[1P-homework4a.txt[1P-homework4a.txt[1P-homework4a.txt[1P-homework4a.txt[1P-homework4a.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kg++ -Wall hw4a.cpp -o hw4a.exe
+]0;phtran@turing: ~[01;32mphtran@turing[00m:[01;34m~[00m$ ./hw4a.exe
+University ID: 010796179
+
+What type of drink do you want to get today? Type (H) for hot or (I) for iced.
+Y
+Invalid choice! Try again.
+H
+
+What kind of drink do you like to get today?
+<	T ~ for Tea                     $3.50       >
+<	C ~ for Coffee                  $3.75       >
+<	J ~ for Juice                   $4.25       >
+<	L ~ for Latte                   $4.50       >
+T
+What size of drink would you like?
+1 = Small || 2 = Medium || 3 = Large
+2
+Extra $0.50 for size Medium.
+Do you want to add more sugar/flavor? For only 50 cents more!
+Type (Y) for yes or (N) for no. Program will keep asking if you enter an invalid answer.
+Y
+Let's make sure the order is correct.
+You order a medium cup of hot tea with extra sugar/flavor.
+If everything seems correct, type (Y) for yes. Otherwise, type (N) for no.
+Y
+You can save $0.50 if you use a reusable cup!
+Do you bring your cup? Type (Y)es/(N)o. 
+N
+Your drink cost: 4.5 dollars
+Would you like to order another drink? (y/n)
+Y
+What type of drink do you want to get today? Type (H) for hot or (I) for iced.
+I
+
+What kind of drink do you like to get today?
+<	T ~ for Tea                     $3.50       >
+<	C ~ for Coffee                  $3.75       >
+<	J ~ for Juice                   $4.25       >
+<	L ~ for Latte                   $4.50       >
+<	B ~ for Blended Beverages       $5.25       >
+B
+What size of drink would you like?
+1 = Small || 2 = Medium || 3 = Large
+3
+Extra $0.75 for size Large.
+Do you want extra whipped cream? For only 50 cents more!
+Type (Y) for yes or (N) for no. Program will keep asking if you enter an invalid answer.
+N
+Let's make sure the order is correct.
+You order a large cup of iced blended beverage.
+If everything seems correct, type (Y) for yes. Otherwise, type (N) for no.
+N
+Please enter your drink again, thank you
+What type of drink do you want to get today? Type (H) for hot or (I) for iced.
+I
+
+What kind of drink do you like to get today?
+<	T ~ for Tea                     $3.50       >
+<	C ~ for Coffee                  $3.75       >
+<	J ~ for Juice                   $4.25       >
+<	L ~ for Latte                   $4.50       >
+<	B ~ for Blended Beverages       $5.25       >
+B
+What size of drink would you like?
+1 = Small || 2 = Medium || 3 = Large
+2
+Extra $0.50 for size Medium.
+Do you want extra whipped cream? For only 50 cents more!
+Type (Y) for yes or (N) for no. Program will keep asking if you enter an invalid answer.
+Y
+Let's make sure the order is correct.
+You order a medium cup of iced blended beverage with extra whipped cream.
+If everything seems correct, type (Y) for yes. Otherwise, type (N) for no.
+Y
+You can save $0.50 if you use a reusable cup!
+Do you bring your cup? Type (Y)es/(N)o. 
+Y
+Your drink cost: 5.75 dollars
+Would you like to order another drink? (y/n)
+Y
+What type of drink do you want to get today? Type (H) for hot or (I) for iced.
+H
+
+What kind of drink do you like to get today?
+<	T ~ for Tea                     $3.50       >
+<	C ~ for Coffee                  $3.75       >
+<	J ~ for Juice                   $4.25       >
+<	L ~ for Latte                   $4.50       >
+L
+What size of drink would you like?
+1 = Small || 2 = Medium || 3 = Large
+3
+Extra $0.75 for size Large.
+Do you want extra foam? For only 50 cents more!
+Type (Y) for yes or (N) for no. Program will keep asking if you enter an invalid answer.
+Y
+Let's make sure the order is correct.
+You order a large cup of hot latte with extra foam.
+If everything seems correct, type (Y) for yes. Otherwise, type (N) for no.
+Y
+You can save $0.50 if you use a reusable cup!
+Do you bring your cup? Type (Y)es/(N)o. 
+Y
+Your drink cost: 5.25 dollars
+Would you like to order another drink? (y/n)
+N
+
+Your bill: 
+------------------------------------------
+	Item Quantity:          3
+	Subtotal:           $15.50
+	Tax :               $1.55
+	TOTAL:              $17.05
+------------------------------------------
+Thank you for your order!
+Enjoy!
+]0;phtran@turing: ~[01;32mphtran@turing[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-10-06 08:11:55-0500
+
